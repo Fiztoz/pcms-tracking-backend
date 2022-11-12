@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item_no": {
+      "type": "string"
+    },
+    "item_name": {
+      "type": "string"
+    },
+    "stocks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stock.stock",
+      "mappedBy": "item"
+    }
+  }
+}

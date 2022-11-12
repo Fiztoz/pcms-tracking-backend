@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stocks",
+  "info": {
+    "singularName": "stock",
+    "pluralName": "stocks",
+    "displayName": "stock",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year_budget": {
+      "type": "biginteger"
+    },
+    "detail_plan": {
+      "type": "string"
+    },
+    "bid_no": {
+      "type": "string"
+    },
+    "list_no": {
+      "type": "integer"
+    },
+    "item_no": {
+      "type": "string"
+    },
+    "item_name": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "biginteger"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "budget": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "string"
+    },
+    "date_contract": {
+      "type": "date"
+    },
+    "remark": {
+      "type": "text"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::item.item",
+      "inversedBy": "stocks"
+    }
+  }
+}
