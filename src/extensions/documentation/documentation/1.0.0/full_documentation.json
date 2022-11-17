@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-11-17T11:23:59.290Z"
+    "x-generation-date": "2022-11-17T11:25:47.184Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -9840,6 +9840,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -10402,6 +10405,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "owner": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -10999,6 +11005,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -11562,6 +11571,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -11896,6 +11908,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "owner": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -12488,6 +12503,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "owner": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -13114,6 +13132,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "owner": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -13706,6 +13727,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "owner": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -14229,6 +14253,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "owner": {
+                "type": "string"
               }
             }
           }
@@ -14673,6 +14700,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -14769,6 +14799,9 @@
                     }
                   }
                 }
+              },
+              "owner": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -15255,6 +15288,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -15351,6 +15387,9 @@
                     }
                   }
                 }
+              },
+              "owner": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -15870,6 +15909,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -15966,6 +16008,9 @@
                     }
                   }
                 }
+              },
+              "owner": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -16452,6 +16497,9 @@
                                             }
                                           }
                                         },
+                                        "owner": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -16548,6 +16596,9 @@
                     }
                   }
                 }
+              },
+              "owner": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
