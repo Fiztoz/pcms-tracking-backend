@@ -50,12 +50,6 @@
     },
     "owner": {
       "type": "string"
-    },
-    "item": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::item.item",
-      "inversedBy": "stocks"
     }
   }
 }
