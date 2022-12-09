@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_infos",
+  "info": {
+    "singularName": "student-info",
+    "pluralName": "student-infos",
+    "displayName": "StudentInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studentname": {
+      "type": "string"
+    },
+    "student": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::student.student",
+      "inversedBy": "student_info"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

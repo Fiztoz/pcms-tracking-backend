@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equibps",
+  "info": {
+    "singularName": "equibp",
+    "pluralName": "equibps",
+    "displayName": "equibp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "equib_name": {
+      "type": "string"
+    }
+  }
+}

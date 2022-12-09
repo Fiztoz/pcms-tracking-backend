@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@hipsquare/strapi-plugin-keycloak": "^0.0.26",
     "@strapi/plugin-documentation": "^4.4.6",
     "@strapi/plugin-graphql": "^4.5.0",

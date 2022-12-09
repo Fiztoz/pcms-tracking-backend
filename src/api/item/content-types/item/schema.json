@@ -17,6 +17,9 @@
     },
     "item_name": {
       "type": "string"
+    },
+    "item_unit": {
+      "type": "string"
     }
   }
 }
