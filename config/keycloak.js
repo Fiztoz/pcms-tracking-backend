@@ -1,9 +1,14 @@
+const env = require('dotenv').config();
+
 module.exports = {
+    jwtPublicKey: "Iadoghdsgh...",
+
+    jwtAlgorithm: "RS256",
     // client ID configured in Keycloak
-    clientId: "pealoan",
-  
+    clientId: process.env.KEYCLOAK_CLIENT_ID,
     // if the client access type is set to "confidential" in keycloak, add the client secret here. otherwise, don't set this value.
-    clientSecret: "d8e665af-8caf-4710-a3e9-ec9dbac71715",
+    //clientSecret: "d8e665af-8caf-4710-a3e9-ec9dbac71715",
+    clientSecret: process.env.KEYCLOAK_CLIENT_SECRET,
   
     // auth endpoint, right value comes from Keycloak
     authEndpoint:
@@ -26,8 +31,8 @@ module.exports = {
   
     // default URL to redirect to when login process is finished. In normal cases, this would redirect you back to the application using Strapi data
     //redirectToUrlAfterLogin: "http://localhost:1337/api/stocks",
-    redirectToUrlAfterLogin: "http://localhost:1337/api/testauthens",
-  
+    //redirectToUrlAfterLogin: "http://localhost:3000/callback",
+    redirectToUrlAfterLogin: process.env.KEYCLOAK_REDIRECT_LOGIN,
     // setting these allows the client to pass a `redirectTo` query parameter to the `login` endpoint. If the `redirectTo`
     // parameter is permitted by this array, after login, Strapi will redirect the user to it. Leave empty to disable
     // the functionality.
@@ -37,7 +42,7 @@ module.exports = {
     ],
   
     // URL to redirect to after logout
-    redirectToUrlAfterLogout: "http://localhost:3000/",
+    redirectToUrlAfterLogout: process.env.KEYCLOAK_REDIRECT_LOGOUT,
   
     // enable debug messages in server log
     debug: true,
